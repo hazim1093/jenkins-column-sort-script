@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 })
 
 function clickSort() {
-  var lastStatusSortArrow = document.evaluate ('//*[@id="projectstatus"]/tbody/tr[1]/th[4]/a/span', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
+  var lastStatusSortArrow = document.evaluate ('//*[@id="projectstatus"]/tbody/tr[1]/th[5]/a/span', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
   
   while (lastStatusSortArrow.singleNodeValue.innerText.indexOf('↑') == -1 ) {
     lastStatusSortArrow.singleNodeValue.click();
