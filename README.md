@@ -4,4 +4,4 @@ Create a link to the script using jsDeliver: https://cdn.jsdelivr.net/gh/hazim10
 Specify this in the "javascript" for Simple theme plugin for jenkins. 
 
 #### Note
-This is a hardcoded script, and will work with jenkins having active tab named "Recent", and will sort the 4th column until it is sorted to latest first. 
+This is a hardcoded script, and will work with jenkins having active tab named "Recent", and will sort the 5th column until it is sorted to latest first. 
